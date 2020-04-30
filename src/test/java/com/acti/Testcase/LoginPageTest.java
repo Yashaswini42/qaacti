@@ -8,27 +8,8 @@ import org.testng.annotations.Test;
 import com.acti.Base.DriverScript;
 import com.acti.Pages.LoginPage;
 
-public class LoginPageTest extends DriverScript {
+public class LoginPageTest extends BaseTest {
 
-	LoginPage lp;
-	
-	 public LoginPageTest() {
-		super();
-	}
-	
-	@BeforeMethod
-	public void Pretest()
-	{
-		initapp();
-		 lp= new LoginPage();
-	}
-	
-	@AfterMethod
-	public void Posttest()
-	{
-		driver.close();
-	}
-	
 	
 	@Test(priority=1)
 	public void TestverifyActiveLogo()

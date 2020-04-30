@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20541" started-at="2020-04-30T21:32:42Z" finished-at="2020-04-30T21:33:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20541" started-at="2020-04-30T21:32:42Z" finished-at="2020-04-30T21:33:02Z">
+      <class name="com.acti.Testcase.TestCreatecustomer">
+        <test-method status="PASS" signature="PreTest()[pri:0, instance:com.acti.Testcase.TestCreatecustomer@26653222]" name="PreTest" is-config="true" duration-ms="11780" started-at="2020-04-30T17:32:42Z" finished-at="2020-04-30T17:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreTest -->
+        <test-method status="PASS" signature="testcreatecustomer()[pri:0, instance:com.acti.Testcase.TestCreatecustomer@26653222]" name="testcreatecustomer" duration-ms="4653" started-at="2020-04-30T17:32:53Z" finished-at="2020-04-30T17:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcreatecustomer -->
+        <test-method status="PASS" signature="Posttest()[pri:0, instance:com.acti.Testcase.TestCreatecustomer@26653222]" name="Posttest" is-config="true" duration-ms="4093" started-at="2020-04-30T17:32:58Z" finished-at="2020-04-30T17:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Posttest -->
+      </class> <!-- com.acti.Testcase.TestCreatecustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
